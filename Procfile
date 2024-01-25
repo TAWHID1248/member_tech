@@ -1,1 +1,1 @@
-web: guicorn member_tect.wsgi --log-file -
+web: gunicorn member_tect.wsgi --log-file -
