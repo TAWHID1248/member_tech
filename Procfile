@@ -1,0 +1,1 @@
+web: guicorn member_tect.wsgi --log-file -
