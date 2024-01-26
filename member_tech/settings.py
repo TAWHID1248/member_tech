@@ -80,8 +80,12 @@ WSGI_APPLICATION = 'member_tech.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'railway',
+        'USER': 'postgres',
+        'PASSWORD': '-E2BA4Dba2ded1gD2BbC-f*11FG-1dEb',
+        'HOST': 'viaduct.proxy.rlwy.net',
+        'PORT': '14862',
     }
 }
 
